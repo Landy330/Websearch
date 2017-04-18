@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public Action getIndexApiAction() {
         Thing object = new Thing.Builder()
-                .setName("Main Page") // TODO: Define a title for the content shown.
+                .setName("Main Page")   // TODO: Define a title for the content shown.
                 // TODO: Make sure this auto-generated URL is correct.
                 .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
                 .build();
